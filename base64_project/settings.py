@@ -15,9 +15,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-03_^zrf1wz@dq2czkqs_7$cy@@ekaky&&oi1$5q-=eva8&7!lq"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["base64-sbuo.onrender.com"]
+ALLOWED_HOSTS = ["base64-q06v.onrender.com"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # React dev server
     "https://playful-alpaca-124085.netlify.app/",  # React dev server
