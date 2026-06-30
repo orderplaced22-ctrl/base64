@@ -1,1 +1,1 @@
-web: gunicorn base64_project.wsgi
+gunicorn base64_project.wsgi:application
