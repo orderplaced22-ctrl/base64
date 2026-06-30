@@ -17,9 +17,11 @@ SECRET_KEY = "django-insecure-03_^zrf1wz@dq2czkqs_7$cy@@ekaky&&oi1$5q-=eva8&7!lq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["base64-sbuo.onrender.com"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # React dev server
+    "https://playful-alpaca-124085.netlify.app/",  # React dev server
+    "https://www.playful-alpaca-124085.netlify.app/",  # React dev server
 ]
 
 # Application definition
